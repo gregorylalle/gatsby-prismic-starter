@@ -1,0 +1,31 @@
+.header {
+    height: 90px;
+    padding: 20px 0;
+
+    &__logo {
+        display: block;
+        height: 100%;
+
+        svg {
+            height: 100%;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: row;
+
+        a {
+            display: block;
+            margin: 0 20px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
